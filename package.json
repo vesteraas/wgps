@@ -1,0 +1,27 @@
+{
+  "name": "wgps",
+  "version": "0.0.1",
+  "description": "Werners GPS library",
+  "author": {
+    "name": "Werner Vesterås",
+    "email": "wvesteraas@gmail.com"
+  },
+  "main" : "./wgps",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vesteraas/wget"
+  },
+  "dependencies": {
+    "nmea-0183": "0.0.6"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "engines": {
+    "node": ">= 0.7.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec -t 60s -s 60s"
+  }
+}
