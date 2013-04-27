@@ -9,9 +9,10 @@
   "main" : "./wgps",
   "repository": {
     "type": "git",
-    "url": "git://github.com/vesteraas/wgps"
+    "url": "git://github.com/vesteraas/wgps.git"
   },
   "dependencies": {
+    "serialport": "1.1.0",
     "nmea-0183": "0.0.6"
   },
   "devDependencies": {
