@@ -1,5 +1,6 @@
-usage:
-
+Usage
+-----
+<pre>
 var wgps = require('wgps');
 var gps = new wgps.WGPS('/dev/tty.usbmodemfd12411', { baudrate: 57600 });
 
@@ -14,4 +15,5 @@ gps.on('satellites', function(data) {
 gps.on('error', function(error) {
   console.log(error);
 });
+</pre>
 
