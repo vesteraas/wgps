@@ -9,7 +9,7 @@
   "main" : "./wgps",
   "repository": {
     "type": "git",
-    "url": "git://github.com/vesteraas/wget"
+    "url": "git://github.com/vesteraas/wgps"
   },
   "dependencies": {
     "nmea-0183": "0.0.6"
