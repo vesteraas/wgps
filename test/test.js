@@ -1,4 +1,4 @@
-var wgps = require('../wgps');
+var wgps = require('../lib/wgps');
 
 describe('Location', function() {
   it('transmits_location', function(done) {

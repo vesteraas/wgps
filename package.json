@@ -1,19 +1,18 @@
 {
   "name": "wgps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Werners GPS library",
   "author": {
     "name": "Werner Vesterås",
     "email": "wvesteraas@gmail.com"
   },
-  "main" : "./wgps",
   "repository": {
     "type": "git",
     "url": "git://github.com/vesteraas/wgps.git"
   },
   "dependencies": {
     "serialport": "1.1.0",
-    "nmea-0183": "0.0.6"
+    "aarlogic_gps_3t": "0.0.1"
   },
   "devDependencies": {
     "mocha": "*",
